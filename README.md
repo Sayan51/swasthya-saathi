@@ -91,69 +91,78 @@ Clone the repository:
 ```bash
 git clone https://github.com/Sayan51/swasthya-saathi.git
 cd swasthya-saathi
-
+```
 Install dependencies:
+
+```bash
 npm install
 ```
-🔐 Environment Setup
+---
 
-Create a .env.local file in the root directory:
-GEMINI_API_KEY=your_actual_api_key_here
-Replace with your actual Gemini API key.
+## 📱 Progressive Web App (PWA)
 
-Get your API key from:
-https://makersuite.google.com/app/apikey
+Swasthya Saathi can be installed as a Progressive Web App:
 
-▶ Run Development Server
-npm run dev
-Open:
-http://localhost:3000
+- **Mobile:** Tap "Add to Home Screen"
+- **Desktop:** Use the browser install option
 
-🏗 Production Build
-npm run build
-npm start
+---
 
-📱 Progressive Web App (PWA)
-Swasthya Saathi can be installed as a PWA:
-Mobile: Tap "Add to Home Screen"
-Desktop: Use browser install option
+## 🌐 Language Support
 
-🌐 Language Support
-English
-Hindi
-Expandable to all 22 Indian languages
+- English
+- Hindi
+- Expandable to all 22 Indian languages
 
-🎯 Target Users
-Rural citizens
-ASHA workers
-Small clinics
-Government health programs
+---
 
-🔐 Required API Keys
-Gemini AI (Required)
-Powers AI health assistant
-Free tier available
-Google Maps (Optional)
-Enables map visualization in facility finder
-List mode works without it
+## 🎯 Target Users
 
-🆘 Emergency Contacts (India)
-🚑 Ambulance: 108
-👮 Police: 100
-🔥 Fire: 101
-👩 Women Helpline: 1091
-👶 Child Helpline: 1098
+- Rural citizens
+- ASHA workers
+- Small clinics
+- Government health programs
 
-⚠️ Disclaimer
+---
 
-This project is built for demonstration and innovation purposes.
+## 🔐 Required API Keys
+
+### Gemini AI (Required)
+- Powers the AI health assistant
+- Free tier available
+
+### Google Maps (Optional)
+- Enables map visualization in Facility Finder
+- List view works without it
+
+---
+
+## 🆘 Emergency Contacts (India)
+
+- 🚑 **Ambulance:** 108  
+- 👮 **Police:** 100  
+- 🔥 **Fire:** 101  
+- 👩 **Women Helpline:** 1091  
+- 👶 **Child Helpline:** 1098  
+
+---
+
+## ⚠️ Disclaimer
+
+This project is built for demonstration and innovation purposes.  
 For real-world deployment, integration with official government APIs (ABDM, NDHM, Bhashini) is recommended.
 
-🤝 Contributing
-Fork the repository
-Create a feature branch
-Commit changes
-Submit a pull request
+---
 
-❤️ Built For
+## 🤝 Contributing
+
+1. Fork the repository  
+2. Create a feature branch  
+3. Commit your changes  
+4. Submit a pull request  
+
+---
+
+## ❤️ Built For
+
 Rural India's healthcare accessibility and digital inclusion.
