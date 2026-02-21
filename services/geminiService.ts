@@ -5,9 +5,9 @@ export const getGeminiResponse = async (prompt: string) => {
   let apiKey: string | undefined;
 
   try {
-    apiKey = (import.meta as any).env?.VITE_API_KEY;
+    apiKey = process.env.GEMINI_API_KEY || (import.meta as any).env?.VITE_API_KEY;
   } catch (e) {
-    console.warn("Environment variables not accessible via import.meta.env");
+    // Fallback for different environments
   }
 
   if (!apiKey || apiKey === "PLACEHOLDER_API_KEY") {
