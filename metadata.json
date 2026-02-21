@@ -1,0 +1,8 @@
+{
+  "name": "Swasthya Saathi",
+  "description": "AI-Powered Rural Health Navigator for India, providing voice-first health advice, symptom checking, and government scheme guidance.",
+  "requestFramePermissions": [
+    "geolocation",
+    "microphone"
+  ]
+}
