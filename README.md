@@ -94,7 +94,7 @@ cd swasthya-saathi
 
 Install dependencies:
 npm install
-
+```
 🔐 Environment Setup
 
 Create a .env.local file in the root directory:
