@@ -1,5 +1,5 @@
 
-import { GoogleGenAI } from "@google/genai";
+import { GoogleGenAI } from "@google/generative-ai";
 
 export const getGeminiResponse = async (prompt: string) => {
   let apiKey: string | undefined;
